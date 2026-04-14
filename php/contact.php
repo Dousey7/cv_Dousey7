@@ -82,7 +82,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $mail->addReplyTo($array["email"], $array["firstname"] . " " . $array["name"]);
             $mail->addAddress($emailTo, "Destinataire");
 
-            $mail->Subject = "Un nouveau message de votre Site";
+			$mail->Subject = "Formulaire CV de Dousey - Message de {$array["firstname"]} {$array["name"]}";
             $mail->Body    = $emailText;
 
             $mail->send();
