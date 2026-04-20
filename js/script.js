@@ -15,6 +15,32 @@ $(function(){
 
 	});
 
+	// Pré-remplissage formulaire depuis les boutons de devis
+	$(document).on("click", ".devis-btn", function(e){
+		e.preventDefault();
+		var service = $(this).data("service");
+		var message = $(this).data("message");
+
+		// Pré-remplir les champs
+		if(service) {
+			$("#service-type").val(service);
+		}
+		if(message) {
+			$("#message").val(message);
+		}
+
+		// Afficher le badge du service sélectionné
+		if(service) {
+			$("#service-badge-text").text("Demande : " + service);
+			$("#service-badge").show();
+		}
+
+		// Scroll vers le formulaire
+		$('body,html').animate({scrollTop: $("#contact").offset().top - 70}, 900, function(){
+			$("#firstname").focus();
+		});
+	});
+
 
 	$('#contact-form').submit(function(e){
 		e.preventDefault();

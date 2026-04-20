@@ -3,7 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV de Seydou Nourou Aw</title>
+    <title>Seydou Nourou Aw — Développeur Web Freelance | Dakar</title>
+
+    <!-- SEO -->
+    <meta name="description" content="Développeur web full stack freelance à Dakar. Je crée des sites vitrines, boutiques e-commerce et applications web sur mesure. Devis gratuit.">
+    <meta name="keywords" content="développeur web Dakar, freelance Sénégal, site internet, e-commerce, application web, React, PHP, Symfony">
+    <meta name="author" content="Seydou Nourou Aw">
+    <link rel="canonical" href="https://cv-dousey.infinityfreeapp.com/">
+
+    <!-- Open Graph (partage réseaux sociaux) -->
+    <meta property="og:title" content="Seydou Nourou Aw — Développeur Web Freelance">
+    <meta property="og:description" content="Je crée des sites vitrines, boutiques e-commerce et applications web sur mesure à Dakar. Devis gratuit sous 24h.">
+    <meta property="og:url" content="https://cv-dousey.infinityfreeapp.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://cv-dousey.infinityfreeapp.com/images/me.jpg">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Seydou Nourou Aw — Développeur Web Freelance">
+    <meta name="twitter:description" content="Sites vitrines, e-commerce et applications web sur mesure à Dakar.">
+    <meta name="twitter:image" content="https://cv-dousey.infinityfreeapp.com/images/me.jpg">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
@@ -29,20 +48,20 @@
 <!-- NAVBAR -->
 <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="#about">Seydou Nourou Aw</a>
+        <a class="navbar-brand" href="https://cv-dousey.infinityfreeapp.com/">Seydou Nourou Aw</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navLinks">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#about">Moi</a></li>
-                <li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">Accueil</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
                 <li class="nav-item"><a class="nav-link" href="#experience">Expérience</a></li>
-                <li class="nav-item"><a class="nav-link" href="#education">Éducation</a></li>
-                <li class="nav-item"><a class="nav-link" href="#projects">Projets</a></li>
+                <li class="nav-item"><a class="nav-link" href="#processus">Processus</a></li>
+                <li class="nav-item"><a class="nav-link" href="#tarifs">Tarifs</a></li>
                 <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link" href="#recommendations">Recommandations</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#recommendations">Avis Clients</a></li>
+                <li class="nav-item"><a class="nav-link btn btn-warning text-dark fw-bold ms-2 px-3" href="#contact">Devis Gratuit</a></li>
             </ul>
         </div>
     </div>
@@ -50,64 +69,216 @@
 
 <!-- ABOUT -->
 <section id="about" class="section-about d-flex align-items-center">
-    <div class="container text-center" data-aos="fade-up">
-        <img src="images/me.jpg" alt="Seydou" class=" floating-img rounded-circle profile-img mb-3">
+    <div class="container text-center position-relative" style="z-index:1;" data-aos="fade-up">
+        <img src="images/dousey.jpeg" alt="Seydou" class=" floating-img rounded-circle profile-img mb-3">
 		<header class="header text-center text-white py-5">
 			<div class="container">
-				<h1>Seydou Nourou Aw</h1>
-				<h4>Développeur Web Full Stack</h4>
-				<p>📍 Dakar – Sénégal | 📧 seydaw7@gmail.com | 📱 +221 77 112 76 10</p>
-				<p>🔗 <a class="text-white" href="https://sn.linkedin.com/in/seydou-nourou-aw-342168185?trk=people-guest_people_search-card" target="_blank">LinkedIn</a> | <a class="text-white" href="https://github.com/Dousey7" target="_blank">GitHub</a> | <a class="text-white" href="#portfolio">Portfolio</a></p>
-        		<p class="mt-3 mb-2">Telecharger le CV :</p>
-        		<a href="docs/mon_CV.pdf" class="btn btn-outline-light btn-lg me-2" download="cv_seydou_classique">CV Classique</a>
-        		<a href="docs/mon_CV_pro.pdf" class="btn btn-primary btn-lg" download="cv_seydou_pro">CV Pro</a>
+				<span class="badge bg-success px-3 py-2 mb-3 fs-6"><i class="bi bi-circle-fill me-2" style="font-size:0.6rem;"></i>Disponible pour de nouveaux projets</span>
+				<h1 class="display-5 fw-bold">Seydou Nourou Aw</h1>
+				<h4 class="text-warning mb-3">Je crée votre site web professionnel</h4>
+				<p class="lead mb-4" style="max-width:600px; margin:auto; color: #fff;">Développeur Full Stack basé à Dakar — je conçois des sites vitrines, boutiques en ligne et applications web sur mesure pour les entrepreneurs et entreprises.</p>
+				<div class="d-flex justify-content-center gap-3 flex-wrap mt-4 mb-3">
+					<a href="#contact" class="btn btn-warning btn-lg fw-bold px-4">Demander un devis gratuit</a>
+					<a href="https://wa.me/221771127610" class="btn btn-success btn-lg px-4" target="_blank"><i class="bi bi-whatsapp me-2"></i>WhatsApp</a>
+					<a href="#portfolio" class="btn btn-outline-light btn-lg px-4">Voir mes réalisations</a>
+				</div>
+				<div class="mt-3 d-flex justify-content-center gap-3 flex-wrap">
+					<a class="text-white-50" href="https://sn.linkedin.com/in/seydou-nourou-aw-342168185?trk=people-guest_people_search-card" target="_blank"><i class="bi bi-linkedin me-1"></i>LinkedIn</a>
+					<a class="text-white-50" href="https://github.com/Dousey7" target="_blank"><i class="bi bi-github me-1"></i>GitHub</a>
+					<a href="docs/mon_CV.pdf" class="text-white-50" download="cv_seydou_classique"><i class="bi bi-download me-1"></i>CV Classique</a>
+					<a href="docs/mon_CV_pro.pdf" class="text-white-50" download="cv_seydou_pro"><i class="bi bi-download me-1"></i>CV Pro</a>
+				</div>
 			</div>
 		</header>
     </div>
 </section>
 
-<!-- Compétences techniques -->
-<section id="skills" class="py-5">
+<!-- STATS RAPIDES -->
+<section class="py-4 bg-dark text-white">
+    <div class="container">
+        <div class="row text-center g-3">
+            <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="0">
+                <div class="stat-item py-3">
+                    <div class="display-5 fw-bold text-warning">5+</div>
+                    <div class="small text-white-50">Années d'expérience</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="100">
+                <div class="stat-item py-3">
+                    <div class="display-5 fw-bold text-warning">10+</div>
+                    <div class="small text-white-50">Projets livrés</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="200">
+                <div class="stat-item py-3">
+                    <div class="display-5 fw-bold text-warning">100%</div>
+                    <div class="small text-white-50">Sites responsive</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="300">
+                <div class="stat-item py-3">
+                    <div class="display-5 fw-bold text-warning">24h</div>
+                    <div class="small text-white-50">Délai de réponse</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="py-5">
     <div class="container">
         <div class="text-center mb-5 p-5 section-title-bg section-bg-cover" data-aos="fade-up" style="background-image: url('images/ray3.avif');">
-            <h2>Compétences Techniques</h2>
-            <i class="bi bi-cpu section-title-icon"></i>
-            <!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="78" width="78" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:serif="http://www.serif.com/" viewBox="0 0 512 512" version="1.1" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g transform="matrix(1,0,0,1,-562,-2810)"><g id="Icons"><path d="M917.955,3095.7C918.427,3093.9 917.863,3091.96 916.439,3090.69L906.104,3081.51C907.69,3076.97 908.938,3072.31 909.837,3067.58C909.837,3067.58 923.377,3064.8 923.377,3064.8C925.525,3064.36 927.135,3062.57 927.347,3060.39C928.059,3053.06 928.059,3045.68 927.347,3038.36C927.135,3036.18 925.525,3034.39 923.377,3033.95L909.837,3031.17C908.938,3026.44 907.69,3021.78 906.103,3017.23C906.104,3017.23 916.439,3008.05 916.439,3008.05C918.079,3006.6 918.578,3004.24 917.67,3002.25C914.624,2995.55 910.936,2989.16 906.658,2983.17C905.383,2981.39 903.094,2980.64 901.012,2981.33L887.896,2985.7C884.753,2982.05 881.343,2978.64 877.696,2975.49C877.696,2975.5 882.057,2962.38 882.057,2962.38C882.749,2960.3 882.004,2958.01 880.22,2956.73C874.232,2952.45 867.845,2948.77 861.146,2945.72C859.149,2944.81 856.794,2945.31 855.338,2946.95L846.159,2957.29C841.614,2955.7 836.956,2954.45 832.225,2953.55C832.226,2953.55 829.445,2940.01 829.445,2940.01C829.003,2937.87 827.213,2936.26 825.03,2936.04C823.029,2935.85 821.025,2935.71 819.018,2935.62L819.018,2906.66C819.018,2903.97 816.883,2901.76 814.19,2901.67C745.355,2899.3 691.163,2932.7 664.213,2972.6C646.435,2998.93 640.514,3028.11 649.295,3052.19C649.295,3052.19 598.629,3112.51 598.629,3112.51C597.512,3113.84 597.165,3115.65 597.713,3117.3C601.61,3129.01 609.536,3137.01 621.283,3141.48C619.593,3146.34 617.508,3150.78 616.61,3154.82C615.807,3158.44 615.822,3161.82 617.013,3164.97C617.743,3166.91 618.918,3168.81 620.741,3170.61C617.545,3175.98 616.11,3181.38 616.81,3186.72C617.287,3190.36 618.74,3194.03 621.465,3197.68C612.332,3214.72 610.284,3226.56 612.704,3234.84C615.302,3243.75 622.84,3249.44 634.272,3253.08C648.743,3257.69 669.948,3259.25 692.965,3263.35C697.385,3264.14 699.556,3267.73 700.914,3272.28C703.71,3281.63 702.927,3294.81 702.614,3305.86C702.576,3307.21 703.085,3308.52 704.027,3309.49C704.968,3310.45 706.261,3311 707.612,3311L894.136,3311C895.518,3311 896.838,3310.43 897.783,3309.42C898.728,3308.41 899.214,3307.06 899.125,3305.68C894.963,3241.06 915.922,3205.04 937.79,3172.59C952.972,3150.06 968.527,3129.15 977.165,3102.23C977.653,3100.7 977.385,3099.04 976.444,3097.75C975.502,3096.46 974.001,3095.7 972.404,3095.7L917.955,3095.7ZM912.974,3105.7C911.041,3109.1 908.933,3112.39 906.658,3115.58C905.383,3117.36 903.094,3118.1 901.012,3117.41C901.012,3117.41 887.896,3113.05 887.896,3113.05C884.752,3116.7 881.343,3120.11 877.696,3123.25L882.057,3136.37C882.749,3138.45 882.004,3140.74 880.22,3142.01C874.232,3146.29 867.845,3149.98 861.146,3153.03C859.149,3153.93 856.794,3153.43 855.338,3151.79C855.338,3151.79 846.159,3141.46 846.16,3141.46C841.613,3143.05 836.956,3144.29 832.226,3145.19L829.445,3158.73C829.003,3160.88 827.213,3162.49 825.03,3162.7C817.706,3163.41 810.33,3163.41 803.006,3162.7C800.823,3162.49 799.033,3160.88 798.592,3158.73C798.592,3158.73 795.811,3145.19 795.811,3145.19C791.08,3144.29 786.423,3143.05 781.877,3141.46L772.698,3151.79C771.242,3153.43 768.887,3153.93 766.89,3153.03C760.192,3149.98 753.804,3146.29 747.817,3142.01C746.032,3140.74 745.287,3138.45 745.979,3136.37C745.979,3136.37 750.341,3123.25 750.341,3123.25C746.693,3120.11 743.284,3116.7 740.14,3113.05L727.024,3117.41C724.943,3118.1 722.654,3117.36 721.378,3115.58C717.1,3109.59 713.412,3103.2 710.366,3096.5C709.458,3094.51 709.958,3092.15 711.598,3090.69C711.598,3090.69 721.933,3081.51 721.933,3081.51C720.346,3076.97 719.098,3072.31 718.199,3067.58L704.66,3064.8C702.511,3064.36 700.901,3062.57 700.689,3060.39C699.977,3053.06 699.977,3045.68 700.689,3038.36C700.901,3036.18 702.511,3034.39 704.66,3033.95C704.66,3033.95 718.199,3031.17 718.199,3031.17C719.098,3026.44 720.346,3021.78 721.933,3017.23L711.598,3008.05C709.958,3006.6 709.458,3004.24 710.366,3002.25C713.412,2995.55 717.1,2989.16 721.378,2983.17C722.654,2981.39 724.943,2980.64 727.024,2981.33C727.024,2981.33 740.14,2985.7 740.14,2985.7C743.284,2982.05 746.693,2978.64 750.341,2975.5L745.979,2962.38C745.287,2960.3 746.032,2958.01 747.817,2956.73C753.804,2952.45 760.192,2948.77 766.89,2945.72C768.887,2944.81 771.242,2945.31 772.698,2946.95C772.698,2946.95 781.877,2957.29 781.877,2957.29C786.423,2955.7 791.08,2954.45 795.811,2953.55L798.592,2940.01C799.033,2937.87 800.823,2936.26 803.006,2936.04C805.007,2935.85 807.012,2935.71 809.018,2935.62L809.018,2911.56C746.491,2910.99 697.244,2941.56 672.5,2978.2C656.108,3002.47 650.45,3029.37 659.643,3051.19C660.371,3052.92 660.07,3054.91 658.863,3056.35C658.863,3056.35 608.172,3116.69 608.172,3116.69C611.857,3125.23 618.875,3130.68 628.828,3133.43C631.455,3134.16 633.015,3136.86 632.337,3139.5C630.954,3144.88 628.629,3149.81 627.142,3154.28C626.253,3156.95 625.51,3159.37 626.421,3161.58C626.986,3162.95 628.214,3164.11 630.127,3165.3C631.325,3166.04 632.155,3167.25 632.411,3168.64C632.667,3170.03 632.327,3171.46 631.474,3172.58C628.191,3176.89 626.16,3181.11 626.726,3185.42C627.088,3188.19 628.552,3190.91 631.144,3193.67C632.637,3195.27 632.923,3197.65 631.848,3199.55C623.245,3214.78 620.215,3224.89 622.303,3232.04C624.043,3238 629.654,3241.11 637.309,3243.55C651.46,3248.06 672.211,3249.5 694.719,3253.51C703.004,3254.98 707.949,3260.89 710.495,3269.41C713.13,3278.23 713.049,3290.14 712.757,3301C712.757,3301 888.854,3301 888.854,3301C885.949,3236.69 907.218,3200.06 929.497,3167C942.899,3147.11 956.723,3128.6 965.365,3105.7L912.974,3105.7ZM820.405,2945.71L823.117,2958.91C823.538,2960.96 825.19,2962.53 827.259,2962.85C833.608,2963.82 839.831,2965.49 845.815,2967.82C847.764,2968.58 849.98,2968.05 851.37,2966.48L860.32,2956.4C864.135,2958.3 867.83,2960.43 871.382,2962.79C871.383,2962.79 867.129,2975.58 867.129,2975.58C866.469,2977.57 867.115,2979.75 868.748,2981.06C873.761,2985.08 878.316,2989.63 882.332,2994.64C883.64,2996.28 885.826,2996.92 887.812,2996.26L900.602,2992.01C902.956,2995.56 905.089,2999.26 906.989,3003.07C906.989,3003.07 896.911,3012.02 896.911,3012.02C895.346,3013.41 894.812,3015.63 895.572,3017.58C897.906,3023.56 899.573,3029.78 900.545,3036.13C900.861,3038.2 902.432,3039.85 904.481,3040.27L917.685,3042.99C917.947,3047.24 917.947,3051.51 917.685,3055.76C917.685,3055.76 904.481,3058.47 904.481,3058.47C902.432,3058.89 900.861,3060.55 900.545,3062.61C899.573,3068.96 897.906,3075.19 895.572,3081.17C894.812,3083.12 895.346,3085.34 896.911,3086.72L906.989,3095.68C905.089,3099.49 902.956,3103.18 900.603,3106.74C900.602,3106.74 887.812,3102.49 887.812,3102.49C885.826,3101.83 883.64,3102.47 882.332,3104.1C878.316,3109.12 873.761,3113.67 868.748,3117.69C867.115,3118.99 866.469,3121.18 867.129,3123.17L871.382,3135.96C867.83,3138.31 864.135,3140.45 860.32,3142.34C860.32,3142.35 851.37,3132.27 851.37,3132.27C849.98,3130.7 847.764,3130.17 845.815,3130.93C839.831,3133.26 833.608,3134.93 827.259,3135.9C825.19,3136.22 823.538,3137.79 823.117,3139.84L820.405,3153.04C816.151,3153.3 811.885,3153.3 807.632,3153.04C807.631,3153.04 804.919,3139.84 804.919,3139.84C804.498,3137.79 802.846,3136.22 800.778,3135.9C794.429,3134.93 788.206,3133.26 782.222,3130.93C780.272,3130.17 778.056,3130.7 776.667,3132.27L767.716,3142.34C763.901,3140.45 760.207,3138.31 756.654,3135.96C756.654,3135.96 760.907,3123.17 760.907,3123.17C761.567,3121.18 760.921,3118.99 759.289,3117.69C754.276,3113.67 749.72,3109.12 745.704,3104.1C744.396,3102.47 742.21,3101.83 740.225,3102.49L727.434,3106.74C725.08,3103.18 722.947,3099.49 721.047,3095.68C721.047,3095.68 731.126,3086.72 731.126,3086.72C732.69,3085.34 733.224,3083.12 732.464,3081.17C730.131,3075.19 728.463,3068.96 727.492,3062.61C727.175,3060.55 725.605,3058.89 723.555,3058.47L710.352,3055.76C710.09,3051.51 710.09,3047.24 710.352,3042.99C710.352,3042.99 723.555,3040.27 723.555,3040.27C725.605,3039.85 727.175,3038.2 727.492,3036.13C728.463,3029.78 730.131,3023.56 732.464,3017.58C733.224,3015.63 732.69,3013.41 731.126,3012.02L721.047,3003.07C722.947,2999.26 725.08,2995.56 727.434,2992.01C727.434,2992.01 740.225,2996.26 740.225,2996.26C742.21,2996.92 744.396,2996.28 745.704,2994.64C749.72,2989.63 754.276,2985.08 759.289,2981.06C760.921,2979.75 761.567,2977.57 760.907,2975.58L756.654,2962.79C760.207,2960.43 763.901,2958.3 767.716,2956.4C767.716,2956.4 776.667,2966.48 776.667,2966.48C778.056,2968.05 780.272,2968.58 782.222,2967.82C788.206,2965.49 794.429,2963.82 800.778,2962.85C802.846,2962.53 804.498,2960.96 804.919,2958.91L807.631,2945.71C811.885,2945.45 816.151,2945.45 820.405,2945.71L820.405,2945.71ZM814.018,3022.6C799.242,3022.6 787.246,3034.6 787.246,3049.37C787.246,3064.15 799.242,3076.15 814.018,3076.15C828.794,3076.15 840.791,3064.15 840.791,3049.37C840.791,3034.6 828.794,3022.6 814.018,3022.6ZM814.018,3032.6C823.275,3032.6 830.791,3040.12 830.791,3049.37C830.791,3058.63 823.275,3066.15 814.018,3066.15C804.761,3066.15 797.246,3058.63 797.246,3049.37C797.246,3040.12 804.761,3032.6 814.018,3032.6ZM942.488,2824.56C941.435,2822.64 939.251,2821.62 937.102,2822.06C931.715,2823.16 926.448,2824.78 921.374,2826.9C919.35,2827.74 918.112,2829.81 918.322,2831.99L919.21,2841.24C916.563,2842.68 914.007,2844.28 911.557,2846.04C911.558,2846.04 903.622,2841.21 903.622,2841.21C901.748,2840.07 899.35,2840.29 897.709,2841.74C893.594,2845.39 889.842,2849.43 886.507,2853.8C885.176,2855.54 885.137,2857.95 886.41,2859.73L891.801,2867.3C890.229,2869.87 888.817,2872.53 887.574,2875.28C887.574,2875.28 878.29,2875.07 878.29,2875.07C876.097,2875.02 874.128,2876.4 873.434,2878.49C871.693,2883.7 870.463,2889.07 869.759,2894.52C869.478,2896.7 870.648,2898.8 872.644,2899.71L881.093,2903.57C881.017,2906.58 881.128,2909.59 881.424,2912.59C881.424,2912.59 873.278,2917.05 873.278,2917.05C871.355,2918.11 870.342,2920.29 870.781,2922.44C871.882,2927.83 873.502,2933.09 875.619,2938.17C876.463,2940.19 878.528,2941.43 880.711,2941.22L889.955,2940.33C891.396,2942.98 892.999,2945.53 894.756,2947.99C894.756,2947.99 889.932,2955.92 889.932,2955.92C888.792,2957.79 889.007,2960.19 890.462,2961.83C894.108,2965.95 898.145,2969.7 902.515,2973.04C904.259,2974.37 906.666,2974.41 908.452,2973.13L916.013,2967.74C918.584,2969.31 921.251,2970.72 923.997,2971.97C923.996,2971.97 923.786,2981.25 923.786,2981.25C923.737,2983.45 925.122,2985.41 927.203,2986.11C932.418,2987.85 937.789,2989.08 943.242,2989.78C945.417,2990.06 947.522,2988.89 948.432,2986.9L952.284,2978.45C955.297,2978.53 958.312,2978.41 961.312,2978.12C961.312,2978.12 965.772,2986.26 965.772,2986.26C966.825,2988.19 969.01,2989.2 971.158,2988.76C976.545,2987.66 981.812,2986.04 986.886,2983.92C988.911,2983.08 990.148,2981.01 989.938,2978.83L989.05,2969.59C991.697,2968.15 994.253,2966.54 996.703,2964.79C996.703,2964.79 1004.64,2969.61 1004.64,2969.61C1006.51,2970.75 1008.91,2970.53 1010.55,2969.08C1014.67,2965.43 1018.42,2961.4 1021.75,2957.03C1023.08,2955.28 1023.12,2952.88 1021.85,2951.09L1016.46,2943.53C1018.03,2940.96 1019.44,2938.29 1020.69,2935.55C1020.69,2935.55 1029.97,2935.76 1029.97,2935.76C1032.16,2935.8 1034.13,2934.42 1034.83,2932.34C1036.57,2927.12 1037.8,2921.75 1038.5,2916.3C1038.78,2914.12 1037.61,2912.02 1035.62,2911.11L1027.17,2907.26C1027.24,2904.24 1027.13,2901.23 1026.84,2898.23C1026.84,2898.23 1034.98,2893.77 1034.98,2893.77C1036.9,2892.72 1037.92,2890.53 1037.48,2888.38C1036.38,2883 1034.76,2877.73 1032.64,2872.66C1031.8,2870.63 1029.73,2869.39 1027.55,2869.6L1018.31,2870.49C1016.86,2867.85 1015.26,2865.29 1013.5,2862.84C1013.5,2862.84 1018.33,2854.9 1018.33,2854.9C1019.47,2853.03 1019.25,2850.63 1017.8,2848.99C1014.15,2844.88 1010.12,2841.12 1005.75,2837.79C1004,2836.46 1001.59,2836.42 999.809,2837.69L992.247,2843.08C989.676,2841.51 987.009,2840.1 984.264,2838.86C984.264,2838.86 984.474,2829.57 984.474,2829.57C984.523,2827.38 983.138,2825.41 981.058,2824.72C975.842,2822.97 970.471,2821.74 965.018,2821.04C962.843,2820.76 960.739,2821.93 959.829,2823.93L955.976,2832.38C952.963,2832.3 949.948,2832.41 946.948,2832.71C946.948,2832.71 942.488,2824.56 942.488,2824.56ZM935.534,2832.68L939.806,2840.48C940.811,2842.32 942.852,2843.33 944.922,2843.03C949.499,2842.35 954.137,2842.18 958.752,2842.52C960.839,2842.68 962.8,2841.51 963.668,2839.61L967.358,2831.52C969.727,2831.94 972.074,2832.48 974.391,2833.13C974.391,2833.13 974.19,2842.02 974.19,2842.02C974.142,2844.11 975.402,2846.01 977.347,2846.78C981.65,2848.49 985.751,2850.66 989.578,2853.26C991.308,2854.43 993.588,2854.41 995.292,2853.19L1002.53,2848.03C1004.37,2849.58 1006.14,2851.22 1007.82,2852.94C1007.82,2852.94 1003.2,2860.54 1003.2,2860.54C1002.11,2862.33 1002.25,2864.61 1003.55,2866.24C1006.43,2869.87 1008.89,2873.8 1010.91,2877.97C1011.82,2879.85 1013.8,2880.97 1015.89,2880.77L1024.74,2879.92C1025.56,2882.18 1026.27,2884.49 1026.86,2886.82C1026.86,2886.82 1019.06,2891.09 1019.06,2891.09C1017.22,2892.09 1016.21,2894.13 1016.51,2896.2C1017.19,2900.78 1017.36,2905.42 1017.02,2910.03C1016.87,2912.12 1018.03,2914.08 1019.93,2914.95L1028.03,2918.64C1027.6,2921.01 1027.06,2923.36 1026.41,2925.67C1026.41,2925.67 1017.52,2925.47 1017.52,2925.47C1015.43,2925.42 1013.53,2926.68 1012.76,2928.63C1011.06,2932.93 1008.88,2937.03 1006.28,2940.86C1005.11,2942.59 1005.13,2944.87 1006.35,2946.57L1011.51,2953.82C1009.96,2955.66 1008.32,2957.42 1006.6,2959.1C1006.6,2959.1 999,2954.48 999,2954.48C997.212,2953.39 994.937,2953.53 993.297,2954.83C989.67,2957.71 985.739,2960.17 981.573,2962.19C979.689,2963.1 978.571,2965.09 978.771,2967.17L979.622,2976.02C977.359,2976.84 975.058,2977.55 972.727,2978.14C972.726,2978.14 968.454,2970.34 968.454,2970.34C967.449,2968.51 965.408,2967.49 963.339,2967.8C958.761,2968.47 954.123,2968.64 949.508,2968.3C947.422,2968.15 945.46,2969.31 944.592,2971.22L940.902,2979.31C938.533,2978.88 936.187,2978.35 933.87,2977.7C933.869,2977.7 934.071,2968.8 934.071,2968.8C934.118,2966.71 932.858,2964.81 930.913,2964.04C926.611,2962.34 922.509,2960.17 918.682,2957.57C916.952,2956.39 914.672,2956.41 912.969,2957.63L905.726,2962.79C903.887,2961.24 902.123,2959.6 900.442,2957.88C900.441,2957.88 905.062,2950.28 905.062,2950.28C906.149,2948.49 906.008,2946.22 904.708,2944.58C901.834,2940.95 899.368,2937.02 897.354,2932.86C896.444,2930.97 894.457,2929.85 892.374,2930.05L883.52,2930.9C882.703,2928.64 881.995,2926.34 881.399,2924.01C881.399,2924.01 889.201,2919.74 889.201,2919.74C891.036,2918.73 892.052,2916.69 891.746,2914.62C891.07,2910.04 890.901,2905.41 891.24,2900.79C891.393,2898.7 890.231,2896.74 888.327,2895.87L880.234,2892.18C880.658,2889.82 881.196,2887.47 881.845,2885.15C881.845,2885.15 890.738,2885.35 890.738,2885.35C892.829,2885.4 894.729,2884.14 895.5,2882.2C897.203,2877.89 899.375,2873.79 901.976,2869.96C903.152,2868.23 903.127,2865.95 901.912,2864.25L896.748,2857.01C898.3,2855.17 899.939,2853.41 901.66,2851.72C901.66,2851.72 909.261,2856.34 909.261,2856.34C911.048,2857.43 913.324,2857.29 914.963,2855.99C918.59,2853.12 922.522,2850.65 926.688,2848.64C928.571,2847.73 929.689,2845.74 929.489,2843.66L928.638,2834.8C930.901,2833.99 933.203,2833.28 935.534,2832.68L935.534,2832.68ZM947.952,2885.33C936.867,2888.74 930.635,2900.5 934.045,2911.59C937.454,2922.68 949.222,2928.91 960.308,2925.5C971.393,2922.09 977.625,2910.32 974.216,2899.23C970.806,2888.15 959.038,2881.92 947.952,2885.33ZM950.892,2894.89C956.702,2893.1 962.87,2896.36 964.658,2902.17C966.445,2907.98 963.178,2914.15 957.368,2915.94C951.558,2917.73 945.39,2914.46 943.603,2908.65C941.816,2902.84 945.082,2896.67 950.892,2894.89Z"/></g></g></svg>
+            <h2>Mes Services</h2>
+            <p class="text-muted mt-2 text-white-50">Ce que je peux créer pour vous</p>
+            <i class="bi bi-grid-3x3-gap section-title-icon"></i>
             <div class="divider"></div>
         </div>
-        <div class="row skills-container">
-            <div class="col-md-4">
-                <h5 class="text-dark text-center mb-2" class="fw-bold">Frontend</h5>
-                <div class="divider"></div>
-                <ul class="list-group list-group-flush text-center skills-list">
-                    <li class="list-group-item"><i class="devicon-react-original colored me-2"></i>React.js</li>
-                    <li class="list-group-item"><i class="devicon-javascript-plain colored me-2"></i>JavaScript ES6+</li>
-                    <li class="list-group-item"><i class="devicon-html5-plain colored me-1"></i>HTML5 / <i class="devicon-css3-plain colored me-1"></i> CSS3 / <i class="devicon-bootstrap-plain colored me-2"></i>Bootstrap</li>
-                    <li class="list-group-item"><i class="bi bi-bar-chart-fill text-warning me-2"></i>Chart.js</li>
-                    <li class="list-group-item"><i class="bi bi-phone text-primary me-2"></i>Responsive Design</li>
-                </ul>
+        <div class="row g-4">
+
+            <!-- Service 1 : Site Vitrine -->
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
+                <div class="card h-100 text-center shadow-sm border-0 service-card">
+                    <div class="card-body p-4">
+                        <div class="service-icon mb-3 text-primary">
+                            <i class="bi bi-globe2" style="font-size:3rem;"></i>
+                        </div>
+                        <h5 class="fw-bold">Site Vitrine</h5>
+                        <p class="text-muted small">Un site professionnel pour présenter votre activité, vos services et attirer vos clients en ligne.</p>
+                        <ul class="list-unstyled text-start small mt-3">
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Design moderne & responsive</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Référencement SEO de base</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Formulaire de contact</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Livraison rapide</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer bg-white border-0 pb-4">
+                        <a href="#contact" class="btn btn-outline-primary btn-sm px-4 devis-btn" data-service="Site Vitrine" data-message="Bonjour Seydou, je souhaite créer un site vitrine professionnel pour présenter mon activité. Pourriez-vous me préparer un devis ? Merci.">Demander un devis</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4">
-                <h5 class="text-dark text-center mb-2" class="fw-bold">Backend</h5>
-                <div class="divider"></div>
-                <ul class="list-group list-group-flush text-center skills-list">
-                    <li class="list-group-item"><i class="devicon-php-plain colored me-1"></i>PHP / <i class="devicon-symfony-original colored me-1"></i>Symfony</li>
-                    <li class="list-group-item"><i class="devicon-nextjs-original me-2"></i>Next.js</li>
-                    <li class="list-group-item"><i class="bi bi-diagram-3 text-primary me-2"></i>API REST</li>
-                    <li class="list-group-item"><i class="bi bi-shield-lock-fill text-success me-2"></i>JWT Authentication</li>
-                    <li class="list-group-item"><i class="bi bi-gear-fill text-secondary me-2"></i>EasyAdmin</li>
-                </ul>
+
+            <!-- Service 2 : Boutique E-Commerce -->
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                <div class="card h-100 text-center shadow-sm border-0 service-card">
+                    <div class="card-body p-4">
+                        <div class="service-icon mb-3 text-warning">
+                            <i class="bi bi-cart3" style="font-size:3rem;"></i>
+                        </div>
+                        <h5 class="fw-bold">Boutique E-Commerce</h5>
+                        <p class="text-muted small">Vendez vos produits en ligne avec une boutique complète, sécurisée et facile à gérer.</p>
+                        <ul class="list-unstyled text-start small mt-3">
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Catalogue produits</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Paiement en ligne sécurisé</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Gestion des commandes</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Tableau de bord admin</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer bg-white border-0 pb-4">
+                        <a href="#contact" class="btn btn-outline-warning btn-sm px-4 devis-btn" data-service="Boutique E-Commerce" data-message="Bonjour Seydou, je voudrais créer une boutique e-commerce pour vendre mes produits en ligne. Pourriez-vous me préparer un devis ? Merci.">Demander un devis</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4">
-                <h5 class="text-dark text-center mb-2" class="fw-bold">Bases & Outils</h5>
-                <div class="divider"></div>
-                <ul class="list-group list-group-flush text-center skills-list">
-                    <li class="list-group-item"><i class="devicon-postgresql-plain colored me-1"></i>PostgreSQL / <i class="devicon-mysql-plain colored me-1"></i>MySQL</li>
-                    <li class="list-group-item"><i class="devicon-git-plain colored me-1"></i>Git / <i class="devicon-github-original me-1"></i>GitHub</li>
-                    <li class="list-group-item"><i class="devicon-docker-plain colored me-2"></i>Docker</li>
-                    <li class="list-group-item"><i class="devicon-vscode-plain colored me-1"></i>VS Code / <i class="devicon-postman-plain colored me-1"></i>Postman</li>
-                </ul>
+
+            <!-- Service 3 : Application Web -->
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                <div class="card h-100 text-center shadow-sm border-0 service-card">
+                    <div class="card-body p-4">
+                        <div class="service-icon mb-3 text-success">
+                            <i class="bi bi-laptop" style="font-size:3rem;"></i>
+                        </div>
+                        <h5 class="fw-bold">Application Web</h5>
+                        <p class="text-muted small">Un outil sur mesure pour gérer votre activité : RH, stock, réservations, facturation…</p>
+                        <ul class="list-unstyled text-start small mt-3">
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Fonctionnalités sur mesure</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Gestion des utilisateurs</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Base de données sécurisée</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Export PDF / Excel</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer bg-white border-0 pb-4">
+                        <a href="#contact" class="btn btn-outline-success btn-sm px-4 devis-btn" data-service="Application Web" data-message="Bonjour Seydou, j'ai besoin d'une application web sur mesure pour gérer mon activité. Je voudrais discuter de mon projet et avoir un devis. Merci.">Demander un devis</a>
+                    </div>
+                </div>
             </div>
+
+            <!-- Service 4 : Dashboard / API -->
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                <div class="card h-100 text-center shadow-sm border-0 service-card">
+                    <div class="card-body p-4">
+                        <div class="service-icon mb-3 text-danger">
+                            <i class="bi bi-bar-chart-line" style="font-size:3rem;"></i>
+                        </div>
+                        <h5 class="fw-bold">Dashboard & API</h5>
+                        <p class="text-muted small">Tableaux de bord interactifs et APIs REST pour piloter votre activité avec des données en temps réel.</p>
+                        <ul class="list-unstyled text-start small mt-3">
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Graphiques & statistiques</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>API REST documentée</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Authentification JWT</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Intégration services tiers</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer bg-white border-0 pb-4">
+                        <a href="#contact" class="btn btn-outline-danger btn-sm px-4 devis-btn" data-service="Dashboard / API" data-message="Bonjour Seydou, je suis intéressé(e) par la création d'un tableau de bord avec des statistiques et/ou une API REST. Pouvez-vous me préparer un devis ? Merci.">Demander un devis</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- COMPÉTENCES COMPACTES -->
+<section id="competences" class="py-5 bg-white">
+    <div class="container">
+        <div class="text-center mb-4" data-aos="fade-up">
+            <h4 class="fw-bold text-dark mb-1">Technologies maîtrisées</h4>
+            <p class="text-muted small">Les outils que j'utilise pour construire vos projets</p>
+        </div>
+        <div class="row g-3 justify-content-center" data-aos="fade-up" data-aos-delay="100">
+
+            <!-- Frontend -->
+            <div class="col-12 col-md-4">
+                <div class="skill-group p-3 rounded-3 bg-light h-100">
+                    <h6 class="fw-bold text-primary mb-3"><i class="bi bi-window me-2"></i>Frontend</h6>
+                    <div class="d-flex flex-wrap gap-2">
+                        <span class="badge bg-warning text-dark px-3 py-2"><i class="devicon-react-original me-1"></i>React.js</span>
+                        <span class="badge bg-warning text-dark px-3 py-2"><i class="devicon-nextjs-original me-1"></i>Next.js</span>
+                        <span class="badge bg-warning text-dark px-3 py-2"><i class="devicon-javascript-plain me-1"></i>JavaScript</span>
+                        <span class="badge bg-warning text-dark px-3 py-2"><i class="devicon-html5-plain me-1"></i>HTML5</span>
+                        <span class="badge bg-warning text-dark px-3 py-2"><i class="devicon-css3-plain me-1"></i>CSS3</span>
+                        <span class="badge bg-warning text-dark px-3 py-2"><i class="devicon-bootstrap-plain me-1"></i>Bootstrap</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Backend -->
+            <div class="col-12 col-md-4">
+                <div class="skill-group p-3 rounded-3 bg-light h-100">
+                    <h6 class="fw-bold text-success mb-3"><i class="bi bi-server me-2"></i>Backend</h6>
+                    <div class="d-flex flex-wrap gap-2">
+                        <span class="badge bg-success text-white px-3 py-2"><i class="devicon-php-plain me-1"></i>PHP</span>
+                        <span class="badge bg-success text-white px-3 py-2"><i class="devicon-symfony-original me-1"></i>Symfony</span>
+                        <span class="badge bg-success text-white px-3 py-2"><i class="bi bi-diagram-3 me-1"></i>API REST</span>
+                        <span class="badge bg-success text-white px-3 py-2"><i class="bi bi-shield-lock me-1"></i>JWT Auth</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bases & Outils -->
+            <div class="col-12 col-md-4">
+                <div class="skill-group p-3 rounded-3 bg-light h-100">
+                    <h6 class="fw-bold text-dark mb-3"><i class="bi bi-tools me-2"></i>Bases & Outils</h6>
+                    <div class="d-flex flex-wrap gap-2">
+                        <span class="badge bg-dark text-white px-3 py-2"><i class="devicon-postgresql-plain me-1"></i>PostgreSQL</span>
+                        <span class="badge bg-dark text-white px-3 py-2"><i class="devicon-mysql-plain me-1"></i>MySQL</span>
+                        <span class="badge bg-dark text-white px-3 py-2"><i class="devicon-docker-plain me-1"></i>Docker</span>
+                        <span class="badge bg-dark text-white px-3 py-2"><i class="devicon-git-plain me-1"></i>Git / GitHub</span>
+                        <span class="badge bg-dark text-white px-3 py-2"><i class="bi bi-bar-chart me-1"></i>Chart.js</span>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
@@ -205,12 +376,13 @@
 </section>
 
 
-<!-- EDUCATION -->
-<section id="education" class="section-education py-5">
+<!-- PROCESSUS -->
+<section id="processus" class="section-education py-5">
     <div class="container">
         <div class="text-center mb-5 p-5 section-title-bg section-bg-cover" data-aos="fade-up" style="background-image: url('images/ray4.avif');">
-            <h2>Éducation</h2>
-            <i class="bi bi-mortarboard section-title-icon"></i>
+            <h2>Comment je travaille avec vous</h2>
+            <p class="text-muted mt-2">Un processus clair, du devis à la livraison</p>
+            <i class="bi bi-arrow-repeat section-title-icon"></i>
             <svg height="80" width="80" id="Layer_1" version="1.1" viewBox="0 0 120 120" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <style type="text/css">
                         .st0{fill:#232323;}
@@ -230,63 +402,146 @@
             <div class="divider"></div>
         </div>
 
-        <div class="row">
-            <div class="col-md-6 mb-4" data-aos="fade-right">
-                <div class="card shadow-sm text-center p-3 edu-card">
-                    <h5 class="edu-year">2019 - 2022</h5>
-                    <h4>Sup de Co</h4>
-                    <img src="images/supdeco.webp" alt="Sup de Co" class="mb-3 edu-logo">
-                    <p>Diplôme d'ingénieur Informatique</p>
-                    <p>Génie Logiciel & Réseaux</p>
+        <div class="row g-4 justify-content-center">
+
+            <!-- Étape 1 -->
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
+                <div class="card shadow-sm text-center p-4 h-100 border-0 processus-card">
+                    <div class="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center mx-auto mb-3" style="width:60px;height:60px;font-size:1.5rem;font-weight:bold;">1</div>
+                    <i class="bi bi-chat-dots text-primary mb-2" style="font-size:2rem;"></i>
+                    <h5 class="fw-bold">Prise de contact</h5>
+                    <p class="text-muted small">Vous me décrivez votre projet par WhatsApp, email ou via le formulaire. Je vous réponds sous 24h.</p>
                 </div>
             </div>
-            <div class="col-md-6 mb-4" data-aos="fade-left">
-                <div class="card shadow-sm text-center p-3 edu-card">
-                    <h5 class="edu-year">2018 - 2019</h5>
-                    <h4>Groupe Scolaire le Baobab</h4>
-                    <img src="images/baobab.webp" alt="Groupe Scolaire le Baobab" class="mb-3 edu-logo">
-                    <p>Baccalauréat Littéraire</p>
-                    <p>Mention Assez Bien</p>
+
+            <!-- Étape 2 -->
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                <div class="card shadow-sm text-center p-4 h-100 border-0 processus-card">
+                    <div class="rounded-circle bg-warning text-dark d-flex align-items-center justify-content-center mx-auto mb-3" style="width:60px;height:60px;font-size:1.5rem;font-weight:bold;">2</div>
+                    <i class="bi bi-file-earmark-text text-warning mb-2" style="font-size:2rem;"></i>
+                    <h5 class="fw-bold">Devis gratuit</h5>
+                    <p class="text-muted small">Je prépare un devis détaillé avec le délai, les fonctionnalités et le tarif. Sans engagement.</p>
                 </div>
             </div>
+
+            <!-- Étape 3 -->
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                <div class="card shadow-sm text-center p-4 h-100 border-0 processus-card">
+                    <div class="rounded-circle bg-success text-white d-flex align-items-center justify-content-center mx-auto mb-3" style="width:60px;height:60px;font-size:1.5rem;font-weight:bold;">3</div>
+                    <i class="bi bi-code-slash text-success mb-2" style="font-size:2rem;"></i>
+                    <h5 class="fw-bold">Développement</h5>
+                    <p class="text-muted small">Je développe votre projet avec des points d'avancement réguliers. Vous validez chaque étape.</p>
+                </div>
+            </div>
+
+            <!-- Étape 4 -->
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                <div class="card shadow-sm text-center p-4 h-100 border-0 processus-card">
+                    <div class="rounded-circle bg-danger text-white d-flex align-items-center justify-content-center mx-auto mb-3" style="width:60px;height:60px;font-size:1.5rem;font-weight:bold;">4</div>
+                    <i class="bi bi-rocket-takeoff text-danger mb-2" style="font-size:2rem;"></i>
+                    <h5 class="fw-bold">Livraison & Support</h5>
+                    <p class="text-muted small">Mise en ligne de votre projet + formation à l'utilisation + support après livraison inclus.</p>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
 
 
-<!-- Projets -->
-<section id="projects" class="my-5 bg-light p-5 rounded" data-aos="fade-up">
+<!-- TARIFS -->
+<section id="tarifs" class="my-5 bg-light p-5 rounded" data-aos="fade-up">
 	<div class="text-center mb-5 p-5 section-title-bg container-fluid" data-aos="fade-up" style="background-image: url('images/ray1.avif'); background-size: cover; background-position: bottom center;">
-		<h2>Mes Projets et Réalisations</h2>
-        <i class="bi bi-kanban section-title-icon"></i>
+		<h2>Mes Formules & Tarifs</h2>
+        <p class="text-muted mt-2">Des offres claires pour chaque besoin</p>
+        <i class="bi bi-tags section-title-icon"></i>
         <svg height="78" width="78" xmlns="http://www.w3.org/2000/svg" id="Project_Management" viewBox="0 0 64 64"><path d="M34,1h-14c-1.09997559,0-2,.89996338-2,2v8h4v-6h10v6h4V3c0-1.10003662-.90002441-2-2-2Z" style="fill:#e2ad9a; stroke-width:0px;"/><path d="M7,50c-1.10253906,0-2-.89746094-2-2v-28h44v28c0,1.10253906-.89746094,2-2,2H7Z" style="fill:#e2ad9a; stroke-width:0px;"/><path d="M4.3671875,24.45605469c-.81738281-.2734375-1.3671875-1.03515625-1.3671875-1.89746094v-10.55859375c0-1.10253906.89746094-2,2-2h44c1.10253906,0,2,.89746094,2,2v10.55859375c0,.86230469-.54980469,1.62402344-1.3671875,1.89746094l-22.6328125,7.54394531-22.6328125-7.54394531Z" style="fill:#edc6b2; stroke-width:0px;"/><rect x="23" y="28" width="8" height="8" style="fill:#d39689; stroke-width:0px;"/><path d="M60.3137207,47c-1.50231934,0-2.25469971-1.81640625-1.19238281-2.87866211.6585083-.65856934.6585083-1.72625732,0-2.38476562l-1.85791016-1.85791016c-.6585083-.65856934-1.72625732-.65856934-2.38476562,0-1.06231689,1.06225586-2.87866211.30993652-2.87866211-1.19238281,0-.93133545-.75494385-1.6862793-1.6862793-1.6862793h-2.62744141c-.93133545,0-1.6862793.75494385-1.6862793,1.6862793,0,1.50231934-1.81634521,2.25463867-2.87866211,1.19238281-.6585083-.65856934-1.72625732-.65856934-2.38476562,0l-1.85791016,1.85791016c-.6585083.6585083-.6585083,1.72619629,0,2.38476562,1.06231689,1.06225586.30993652,2.87866211-1.19238281,2.87866211-.93133545,0-1.6862793.75494385-1.6862793,1.6862793v2.62744141c0,.93127441.75494385,1.6862793,1.6862793,1.6862793,1.50231934,0,2.25469971,1.81634521,1.19238281,2.87866211-.6585083.6585083-.6585083,1.72619629,0,2.38476562l1.85791016,1.85791016c.6585083.6585083,1.72625732.6585083,2.38476562,0,1.06231689-1.06231689,2.87866211-.30993652,2.87866211,1.19238281,0,.93127441.75494385,1.6862793,1.6862793,1.6862793h2.62744141c.93133545,0,1.6862793-.75500488,1.6862793-1.6862793,0-1.50231934,1.81634521-2.25469971,2.87866211-1.19238281.6585083.6585083,1.72625732.6585083,2.38476562,0l1.85791016-1.85791016c.6585083-.65856934.6585083-1.72625732,0-2.38476562-1.06231689-1.06231689-.30993652-2.87866211,1.19238281-2.87866211.93133545,0,1.6862793-.75500488,1.6862793-1.6862793v-2.62744141c0-.93133545-.75494385-1.6862793-1.6862793-1.6862793Z" style="fill:#78869b; stroke-width:0px;"/><circle cx="49" cy="50" r="5" style="fill:#5e6e84; stroke-width:0px;"/><path d="M33,49H7c-.55175781,0-1-.44824219-1-1v-20.16992188c0-.55273438-.44726562-1-1-1s-1,.44726562-1,1v20.16992188c0,1.65429688,1.34570312,3,3,3h26c.55273438,0,1-.44726562,1-1s-.44726562-1-1-1Z" style="fill:#393e4c; stroke-width:0px;"/><path d="M49,26.83007812c-.55273438,0-1,.44726562-1,1v6.16992188c0,.55273438.44726562,1,1,1s1-.44726562,1-1v-6.16992188c0-.55273438-.44726562-1-1-1Z" style="fill:#393e4c; stroke-width:0px;"/><path d="M22,31.39031982v4.60968018c0,.55273438.44726562,1,1,1h8c.55273438,0,1-.44726562,1-1v-4.60968018l17.953125-5.98406982c1.22460938-.41796875,2.046875-1.5625,2.046875-2.84667969v-10.55957031c0-1.65429688-1.34570312-3-3-3h-12V3c0-1.65429688-1.34570312-3-3-3h-14c-1.65429688,0-3,1.34570312-3,3v6H5c-1.65429688,0-3,1.34570312-3,3v10.55957031c0,1.28417969.82226562,2.42871094,2.05371094,2.84863281l17.94628906,5.9821167ZM30,35h-6v-6h6v6ZM19,3c0-.55175781.44824219-1,1-1h14c.55175781,0,1,.44824219,1,1v6h-2v-4c0-.55273438-.44726562-1-1-1h-10c-.55273438,0-1,.44726562-1,1v4h-2V3ZM31,9h-8v-3h8v3ZM4,12c0-.55175781.44824219-1,1-1h44c.55175781,0,1,.44824219,1,1v10.55957031c0,.42871094-.27832031.8125-.68652344.95214844l-17.31347656,5.7711792v-1.28289795c0-.55273438-.44726562-1-1-1h-8c-.55273438,0-1,.44726562-1,1v1.28283691l-17.30664062-5.76916504c-.41503906-.14160156-.69335938-.52539062-.69335938-.95410156v-10.55957031Z" style="fill:#393e4c; stroke-width:0px;"/><path d="M60.31347656,46c-.4140625,0-.58105469-.296875-.63378906-.42382812s-.14453125-.45507812.1484375-.74707031c.5078125-.5078125.78710938-1.18261719.78710938-1.90039062,0-.71679688-.27929688-1.39160156-.78710938-1.89941406l-1.85742188-1.85742188c-1.01660156-1.01757812-2.78613281-1.015625-3.79882812,0-.29296875.29296875-.62207031.20214844-.74804688.1484375-.12695312-.05273438-.42382812-.21972656-.42382812-.63378906,0-1.48144531-1.20507812-2.68652344-2.68652344-2.68652344h-2.62695312c-1.48144531,0-2.68652344,1.20507812-2.68652344,2.68652344,0,.4140625-.296875.58105469-.42382812.63378906-.12890625.05371094-.45605469.14453125-.74707031-.1484375-1.01367188-1.01464844-2.78222656-1.01660156-3.79980469,0l-1.85742188,1.85742188c-.5078125.5078125-.78710938,1.18261719-.78710938,1.89941406,0,.71777344.27929688,1.39257812.78710938,1.89941406.29296875.29296875.20117188.62109375.1484375.74804688s-.21972656.42382812-.63378906.42382812c-1.48144531,0-2.68652344,1.20507812-2.68652344,2.68652344v2.62695312c0,1.48144531,1.20507812,2.68652344,2.68652344,2.68652344.4140625,0,.58105469.296875.63378906.42382812s.14453125.45507812-.1484375.74707031c-.5078125.5078125-.78710938,1.18261719-.78710938,1.90039062,0,.71679688.27929688,1.39160156.78710938,1.89941406l1.85742188,1.85742188c1.01660156,1.015625,2.78613281,1.01464844,3.79882812,0,.29296875-.29296875.62207031-.20117188.74804688-.1484375.12695312.05273438.42382812.21972656.42382812.63378906,0,1.48144531,1.20507812,2.68652344,2.68652344,2.68652344h2.62695312c1.48144531,0,2.68652344-1.20507812,2.68652344-2.68652344,0-.4140625.296875-.58105469.42382812-.63378906.12890625-.05273438.45605469-.14453125.74707031.1484375,1.015625,1.015625,2.78417969,1.01660156,3.79980469,0l1.85742188-1.85742188c.5078125-.5078125.78710938-1.18261719.78710938-1.89941406,0-.71777344-.27929688-1.39257812-.78710938-1.89941406-.29296875-.29296875-.20117188-.62109375-.1484375-.74804688s.21972656-.42382812.63378906-.42382812c1.48144531,0,2.68652344-1.20507812,2.68652344-2.68652344v-2.62695312c0-1.48144531-1.20507812-2.68652344-2.68652344-2.68652344ZM61,51.31347656c0,.37890625-.30761719.68652344-.68652344.68652344-1.10742188,0-2.05761719.63574219-2.48144531,1.65820312-.42382812,1.0234375-.20117188,2.14453125.58203125,2.92871094.12988281.12890625.20117188.30078125.20117188.484375,0,.18261719-.07128906.35546875-.20117188.48535156l-1.85742188,1.85742188c-.26171875.25976562-.71191406.2578125-.97070312,0-.78125-.78125-1.90234375-1.0078125-2.92773438-.58203125-1.02246094.42382812-1.65820312,1.37402344-1.65820312,2.48144531,0,.37890625-.30761719.68652344-.68652344.68652344h-2.62695312c-.37890625,0-.68652344-.30761719-.68652344-.68652344,0-1.10742188-.63574219-2.05761719-1.65820312-2.48144531-.34277344-.14257812-.69628906-.21191406-1.04492188-.21191406-.69140625,0-1.36230469.2734375-1.88378906.79394531-.25683594.2578125-.70898438.25976562-.96972656,0l-1.85742188-1.85742188c-.12988281-.12988281-.20117188-.30273438-.20117188-.48535156,0-.18359375.07128906-.35546875.20117188-.48535156.78320312-.78320312,1.00585938-1.90429688.58203125-2.92773438-.42382812-1.02246094-1.37402344-1.65820312-2.48144531-1.65820312-.37890625,0-.68652344-.30761719-.68652344-.68652344v-2.62695312c0-.37890625.30761719-.68652344.68652344-.68652344,1.10742188,0,2.05761719-.63574219,2.48144531-1.65820312.42382812-1.0234375.20117188-2.14453125-.58203125-2.92871094-.12988281-.12890625-.20117188-.30078125-.20117188-.484375,0-.18261719.07128906-.35546875.20117188-.48535156l1.85742188-1.85742188c.26074219-.26074219.71191406-.25976562.97070312,0,.78222656.78222656,1.90332031,1.00878906,2.92773438.58203125,1.02246094-.42382812,1.65820312-1.37402344,1.65820312-2.48144531,0-.37890625.30761719-.68652344.68652344-.68652344h2.62695312c.37890625,0,.68652344.30761719.68652344.68652344,0,1.10742188.63574219,2.05761719,1.65820312,2.48144531,1.0234375.42578125,2.14355469.20019531,2.92871094-.58203125.25683594-.25976562.70800781-.26074219.96972656,0l1.85742188,1.85742188c.12988281.12988281.20117188.30273438.20117188.48535156,0,.18359375-.07128906.35546875-.20117188.48535156-.78320312.78320312-1.00585938,1.90429688-.58203125,2.92773438.42382812,1.02246094,1.37402344,1.65820312,2.48144531,1.65820312.37890625,0,.68652344.30761719.68652344.68652344v2.62695312Z" style="fill:#393e4c; stroke-width:0px;"/><path d="M49,44c-3.30859375,0-6,2.69140625-6,6s2.69140625,6,6,6,6-2.69140625,6-6-2.69140625-6-6-6ZM49,54c-2.20605469,0-4-1.79394531-4-4s1.79394531-4,4-4,4,1.79394531,4,4-1.79394531,4-4,4Z" style="fill:#393e4c; stroke-width:0px;"/></svg>
 		<div class="divider"></div>
 	</div>
     <div class="container">
-    <div class="row g-4">
-        <div class="col-md-6" data-aos="fade-left">
-            <div class="card h-100 shadow-sm project-card">
-                <div class="card-body">
-                    <h5 class="card-title text-center my-5" class="fw-bold text-white">Application RH – Gestion des bulletins de salaire</h5>
-                    <p><strong>Stack :</strong> Symfony, MySQL, EasyAdmin, Chart.js</p>
-                    <p><strong>Problème :</strong> Gestion manuelle et fastidieuse des bulletins de salaire.</p>
-                    <p><strong>Solution technique :</strong> Symfony, upload ZIP, notifications email + SMS, dashboard statistique, export PDF/Excel, authentification sécurisée, gestion des rôles.</p>
-                    <p><strong>Résultat :</strong> Optimisation du temps de traitement, sécurisation et meilleure UX pour les employés et RH.</p>
+    <div class="row g-4 justify-content-center">
+
+        <!-- Formule Starter -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+            <div class="card h-100 shadow-sm text-center border-0 tarif-card">
+                <div class="card-header bg-secondary text-white py-3 border-0">
+                    <h5 class="fw-bold mb-0">Starter</h5>
+                    <p class="small mb-0 opacity-75">Site vitrine simple</p>
+                </div>
+                <div class="card-body p-4">
+                    <div class="display-6 fw-bold text-secondary mb-1">150 000</div>
+                    <div class="text-muted small mb-4">FCFA — à partir de</div>
+                    <ul class="list-unstyled text-start">
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Site vitrine jusqu'à 5 pages</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Design responsive mobile</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Formulaire de contact</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Optimisation SEO de base</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Délai : 7 à 14 jours</li>
+                        <li class="mb-2 text-muted"><i class="bi bi-x-circle me-2"></i>E-commerce</li>
+                        <li class="mb-2 text-muted"><i class="bi bi-x-circle me-2"></i>Espace admin</li>
+                    </ul>
+                </div>
+                <div class="card-footer bg-white border-0 pb-4">
+                    <a href="#contact" class="btn btn-secondary w-100 devis-btn" data-service="Formule Starter" data-message="Bonjour Seydou, je suis intéressé(e) par la Formule Starter (site vitrine à partir de 150 000 FCFA). Je souhaiterais avoir un devis personnalisé pour mon projet. Merci.">Choisir Starter</a>
                 </div>
             </div>
         </div>
-        <div class="col-md-6" data-aos="fade-left">
-            <div class="card h-100 shadow-sm project-card">
-                <div class="card-body">
-                    <h5 class="card-title text-center my-5" class="fw-bold text-white">Plateforme Location / Vente de Véhicules</h5>
-                    <p><strong>Stack :</strong> Next.js, React, PostgreSQL, JWT</p>
-                    <p><strong>Problème :</strong> Difficulté pour les concessionnaires de mettre en avant leurs véhicules.</p>
-                    <p><strong>Solution technique :</strong> Next.js + React + PostgreSQL, système premium, annonces dynamiques, interface responsive, JWT authentication.</p>
-                    <p><strong>Résultat :</strong> Expérience fluide pour Particuliers, BusinessMen et concessionnaires, Gestion efficace des annonces.</p>
+
+        <!-- Formule Pro -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card h-100 shadow-lg text-center border-0 tarif-card tarif-featured" style="transform: scale(1.03);">
+                <div class="card-header bg-primary text-white py-3 border-0 position-relative">
+                    <span class="badge bg-warning text-dark position-absolute top-0 start-50 translate-middle">Populaire</span>
+                    <h5 class="fw-bold mb-0 mt-2">Pro</h5>
+                    <p class="small mb-0 opacity-75">Site + fonctionnalités avancées</p>
+                </div>
+                <div class="card-body p-4">
+                    <div class="display-6 fw-bold text-primary mb-1">350 000</div>
+                    <div class="text-muted small mb-4">FCFA — à partir de</div>
+                    <ul class="list-unstyled text-start">
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Site jusqu'à 15 pages</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Design premium sur mesure</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Espace d'administration</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Authentification utilisateurs</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Blog ou catalogue produits</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>SEO avancé</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Délai : 14 à 30 jours</li>
+                    </ul>
+                </div>
+                <div class="card-footer bg-white border-0 pb-4">
+                    <a href="#contact" class="btn btn-primary w-100 devis-btn" data-service="Formule Pro" data-message="Bonjour Seydou, la Formule Pro correspond à mon besoin (à partir de 350 000 FCFA). Je souhaiterais avoir un devis personnalisé pour mon projet. Merci.">Choisir Pro</a>
                 </div>
             </div>
         </div>
+
+        <!-- Formule Premium -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="card h-100 shadow-sm text-center border-0 tarif-card">
+                <div class="card-header bg-dark text-white py-3 border-0">
+                    <h5 class="fw-bold mb-0">Premium</h5>
+                    <p class="small mb-0 opacity-75">Application web sur mesure</p>
+                </div>
+                <div class="card-body p-4">
+                    <div class="display-6 fw-bold text-dark mb-1">Sur devis</div>
+                    <div class="text-muted small mb-4">selon les besoins</div>
+                    <ul class="list-unstyled text-start">
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Application complète sur mesure</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>E-commerce avec paiement</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Gestion RH, stock, réservations…</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Dashboard & statistiques</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>API REST & intégrations</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Support prioritaire inclus</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Délai : selon complexité</li>
+                    </ul>
+                </div>
+                <div class="card-footer bg-white border-0 pb-4">
+                    <a href="#contact" class="btn btn-dark w-100 devis-btn" data-service="Formule Premium" data-message="Bonjour Seydou, je souhaite discuter d'un projet d'application web sur mesure (Formule Premium). Pouvez-vous me contacter pour établir un devis selon mes besoins ? Merci.">Demander un devis</a>
+                </div>
+            </div>
+        </div>
+
     </div>
+    <p class="text-center text-muted mt-4 small"><i class="bi bi-info-circle me-1"></i>Tous les tarifs incluent la mise en ligne, les tests et la formation à l'utilisation. Paiement en plusieurs fois possible.</p>
     </div><!-- /container -->
 </section>
 
@@ -303,7 +558,7 @@
         <div class="row">
             <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="200">
                 <div class="portfolio-item">
-                    <a href="#">
+                    <a href="https://cv-dousey.infinityfreeapp.com/#portfolio" target="_blank">
                         <img src="images/plateforme.png" alt="Plateforme Location Véhicules" height="230px">
                         <div class="overlay"><span class="text-center">Plateforme Location / Vente Véhicules<br>(Symfony - 1ère Version)</span></div>
                     </a>
@@ -311,7 +566,7 @@
             </div>
             <div class="col-md-4 mb-4" data-aos="zoom-in">
                 <div class="portfolio-item">
-                    <a href="#">
+                    <a href="https://cv-dousey.infinityfreeapp.com/#portfolio" target="_blank">
                         <img src="images/developpeur.jpg" alt="Application RH" height="230px">
                         <div class="overlay"><span class="text-center">App RH – Bulletins de salaire</span></div>
                     </a>
@@ -319,7 +574,7 @@
             </div>
             <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="100">
                 <div class="portfolio-item">
-                    <a href="#">
+                    <a href="https://cv-dousey.infinityfreeapp.com/#portfolio" target="_blank">
                         <img src="images/jeuduserpent.png" alt="Jeu du serpent" height="230px">
                         <div class="overlay"><span class="text-center">Jeu du Serpent<br>(JavaScript)</span></div>
                     </a>
@@ -331,7 +586,7 @@
         <div class="row">
             <div class="col-md-4 mb-4" data-aos="zoom-in">
                 <div class="portfolio-item">
-                    <a href="#">
+                    <a href="https://cv-dousey.infinityfreeapp.com/#portfolio" target="_blank">
                         <img src="images/joyly.png" alt="JOYLY" height="230px">
                         <div class="overlay"><span class="text-center">JOYLY (App E-Commerce)</span></div>
                     </a>
@@ -339,7 +594,7 @@
             </div>
             <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="100">
                 <div class="portfolio-item">
-                    <a href="#">
+                    <a href="https://cv-dousey.infinityfreeapp.com/#portfolio" target="_blank">
                         <img src="images/pharmacie.png" alt="Gestion de Pharmacie" height="230px">
                         <div class="overlay"><span>Application de Gestion de Stock Pharmacie</span></div>
                     </a>
@@ -347,7 +602,7 @@
             </div>
             <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="200">
                 <div class="portfolio-item">
-                    <a href="#">
+                    <a href="https://cv-dousey.infinityfreeapp.com/#portfolio" target="_blank">
                         <img src="images/galsen.png" alt="Plateforme Location Véhicules" height="230px">
                         <div class="overlay"><span class="text-center">Plateforme Location / Vente Véhicules<br>(Next-JS 2nde Version)</span></div>
                     </a>
@@ -481,60 +736,86 @@
     </div>
 </section>
 
-<!-- BONUS / SOFT SKILLS -->
-<section id="bonus" class="py-5 bg-light">
-
-    <div class="text-center mb-5" data-aos="fade-up">
-        <h2>Compétences & Informations</h2>
-        <div class="divider"></div>
-    </div>
+<!-- POURQUOI ME CHOISIR -->
+<section id="bonus" class="py-5" style="background: linear-gradient(135deg, #003c78 0%, #0077B6 100%);">
 
     <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+            <h2 class="text-white fw-bold">Pourquoi travailler avec moi ?</h2>
+            <p class="text-white-50">Ce que je vous apporte au-delà du code</p>
+            <div class="divider" style="background:rgba(255,255,255,0.4);"></div>
+        </div>
 
         <div class="row g-4">
 
-            <!-- Soft Skills -->
-            <div class="col-md-4 shadow-sm text-center p-4" data-aos="fade-up" data-aos-delay="100">
-                <div class="bonus-card">
-                    <h4>Soft Skills</h4>
-                    <div class="divider"></div>
-                    <ul class="list-unstyled">
-                        <li>Analyse & résolution de problèmes</li>
-                        <li>Rigueur et organisation</li>
-                        <li>Sens de l'écoute</li>
-                        <li>Adaptabilité</li>
-                        <li>Persévérance</li>
-                    </ul>
+            <!-- Engagement qualité -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+                <div class="atout-card text-center p-4 h-100">
+                    <i class="bi bi-shield-check mb-3" style="font-size:2.5rem; color:#ffc107;"></i>
+                    <h5 class="text-white fw-bold">Qualité garantie</h5>
+                    <p class="text-white-50 small">Code propre, site testé sur tous les appareils. Je ne livre que quand vous êtes satisfait(e).</p>
+                </div>
+            </div>
+
+            <!-- Écoute & Communication -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="atout-card text-center p-4 h-100">
+                    <i class="bi bi-headset mb-3" style="font-size:2.5rem; color:#ffc107;"></i>
+                    <h5 class="text-white fw-bold">Écoute & Réactivité</h5>
+                    <p class="text-white-50 small">Je réponds en moins de 24h. Points d'avancement réguliers tout au long du projet.</p>
+                </div>
+            </div>
+
+            <!-- Délais respectés -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="atout-card text-center p-4 h-100">
+                    <i class="bi bi-clock-history mb-3" style="font-size:2.5rem; color:#ffc107;"></i>
+                    <h5 class="text-white fw-bold">Délais respectés</h5>
+                    <p class="text-white-50 small">Le calendrier est défini dès le départ. Pas de mauvaises surprises, livraison dans les temps.</p>
                 </div>
             </div>
 
             <!-- Langues -->
-            <div class="col-md-4 shadow-sm text-center" data-aos="fade-up"  style="padding: 30px;" data-aos-delay="100">
-                <div class="bonus-card">
-                    <h4>Langues</h4>
-                    <div class="divider"></div>
-                    <ul class="list-unstyled">
-                        <li>Français – Courant</li>
-                        <li>Anglais – Professionnel</li>
-                        <li>Wolof – Langue maternelle</li>
-                    </ul>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="atout-card text-center p-4 h-100">
+                    <i class="bi bi-translate mb-3" style="font-size:2.5rem; color:#ffc107;"></i>
+                    <h5 class="text-white fw-bold">Multilingue</h5>
+                    <p class="text-white-50 small">
+                        <span class="badge bg-light text-dark me-1 mb-1">Français</span>
+                        <span class="badge bg-light text-dark me-1 mb-1">Anglais</span>
+                        <span class="badge bg-light text-dark mb-1">Wolof</span><br>
+                        <span class="small">Je travaille avec des clients locaux et internationaux.</span>
+                    </p>
                 </div>
             </div>
 
-            <!-- Certifications -->
-            <div class="col-md-4 shadow-sm text-center" data-aos="fade-up"  style="padding: 30px;" data-aos-delay="200">
-                <div class="bonus-card">
-                    <h4>Certifications</h4>
-                    <div class="divider"></div>
-                    <ul class="list-unstyled">
-                        <li>Certifications techniques à venir</li>
-                        <li>Formation continue en développement web</li>
-                    </ul>
+            <!-- Support après livraison -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="atout-card text-center p-4 h-100">
+                    <i class="bi bi-tools mb-3" style="font-size:2.5rem; color:#ffc107;"></i>
+                    <h5 class="text-white fw-bold">Support inclus</h5>
+                    <p class="text-white-50 small">Formation à l'utilisation + support après livraison. Vous n'êtes pas seul(e) une fois le projet en ligne.</p>
+                </div>
+            </div>
+
+            <!-- Paiement flexible -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
+                <div class="atout-card text-center p-4 h-100">
+                    <i class="bi bi-wallet2 mb-3" style="font-size:2.5rem; color:#ffc107;"></i>
+                    <h5 class="text-white fw-bold">Paiement flexible</h5>
+                    <p class="text-white-50 small">Paiement en plusieurs fois possible. Devis gratuit et sans engagement. Tarifs adaptés au marché sénégalais.</p>
                 </div>
             </div>
 
         </div>
 
+        <div class="text-center mt-5" data-aos="fade-up">
+            <a href="#contact" class="btn btn-warning btn-lg fw-bold px-5 devis-btn"
+               data-service=""
+               data-message="Bonjour Seydou, je souhaite discuter d'un projet web avec vous. Pouvez-vous me contacter ?">
+                <i class="bi bi-rocket-takeoff me-2"></i>Démarrer mon projet maintenant
+            </a>
+        </div>
     </div>
 
 </section>
@@ -545,43 +826,92 @@
 <section id="contact" class="section-contact py-5 bg-dark text-light">
     <div class="container">
         <div class="text-center mb-5" data-aos="fade-up">
-            <h2>Contact</h2>
+            <h2>Demander un devis gratuit</h2>
+            <p class="text-white-50">Décrivez votre projet, je vous réponds sous 24h</p>
             <div class="divider bg-light"></div>
         </div>
 
         <div class="row justify-content-center">
-            <div class="col-lg-6">
+            <div class="col-lg-7">
+                <!-- Badge service sélectionné -->
+                <div id="service-badge" class="mb-3 text-center" style="display:none;">
+                    <span class="badge bg-warning text-dark px-3 py-2 fs-6">
+                        <i class="bi bi-check-circle me-1"></i>
+                        <span id="service-badge-text"></span>
+                    </span>
+                </div>
+
                 <form id="contact-form">
-                    <div class="mb-3">
-                        <input type="text" class="form-control" id="firstname" name="firstname" placeholder="Prénom" required>
-                        <small class="comments text-danger"></small>
+                    <div class="row g-3 mb-3">
+                        <div class="col-6">
+                            <input type="text" class="form-control bg-dark text-light border-secondary" id="firstname" name="firstname" placeholder="Prénom *" required>
+                            <small class="comments text-danger"></small>
+                        </div>
+                        <div class="col-6">
+                            <input type="text" class="form-control bg-dark text-light border-secondary" id="name" name="name" placeholder="Nom *" required>
+                            <small class="comments text-danger"></small>
+                        </div>
+                    </div>
+                    <div class="row g-3 mb-3">
+                        <div class="col-6">
+                            <input type="email" class="form-control bg-dark text-light border-secondary" id="email" name="email" placeholder="Email *" required>
+                            <small class="comments text-danger"></small>
+                        </div>
+                        <div class="col-6">
+                            <input type="tel" class="form-control bg-dark text-light border-secondary" id="phone" name="phone" placeholder="Téléphone (optionnel)">
+                            <small class="comments text-danger"></small>
+                        </div>
                     </div>
                     <div class="mb-3">
-                        <input type="text" class="form-control" id="name" name="name" placeholder="Nom" required>
-                        <small class="comments text-danger"></small>
+                        <select class="form-select bg-dark text-light border-secondary" id="service-type" name="service_type">
+                            <option value="">-- Type de projet --</option>
+                            <option value="Site Vitrine">Site Vitrine</option>
+                            <option value="Boutique E-Commerce">Boutique E-Commerce</option>
+                            <option value="Application Web">Application Web sur mesure</option>
+                            <option value="Dashboard / API">Dashboard & API</option>
+                            <option value="Formule Starter">Formule Starter (150 000 FCFA)</option>
+                            <option value="Formule Pro">Formule Pro (350 000 FCFA)</option>
+                            <option value="Formule Premium">Formule Premium (sur devis)</option>
+                            <option value="Autre">Autre / Je ne sais pas encore</option>
+                        </select>
                     </div>
                     <div class="mb-3">
-                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+                        <textarea class="form-control bg-dark text-light border-secondary" id="message" name="message" rows="5" placeholder="Décrivez votre projet (fonctionnalités souhaitées, délai, budget…) *" required></textarea>
                         <small class="comments text-danger"></small>
                     </div>
-                    <div class="mb-3">
-                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Téléphone (optionnel)">
-                        <small class="comments text-danger"></small>
-                    </div>
-                    <div class="mb-3">
-                        <textarea class="form-control" id="message" name="message" rows="5" placeholder="Message" required></textarea>
-                        <small class="comments text-danger"></small>
-                    </div>
-                    <button type="submit" class="btn btn-primary w-100">Envoyer</button>
+                    <button type="submit" class="btn btn-warning text-dark fw-bold w-100 py-3">
+                        <i class="bi bi-send me-2"></i>Envoyer ma demande de devis
+                    </button>
                 </form>
             </div>
         </div>
     </div>
 </section>
 
+<!-- BOUTONS FLOTTANTS CONTACT -->
+<div class="floating-buttons">
+    <a href="https://wa.me/221771127610?text=Bonjour%20Seydou%2C%20j%27aimerais%20discuter%20d%27un%20projet%20web."
+       class="float-btn float-whatsapp" target="_blank" title="WhatsApp">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+    <a href="mailto:seydaw7@gmail.com?subject=Demande%20de%20devis&body=Bonjour%20Seydou%2C%20je%20souhaite%20discuter%20d%27un%20projet%20web."
+       class="float-btn float-gmail" target="_blank" title="Gmail">
+        <i class="bi bi-envelope-fill"></i>
+    </a>
+    <a href="https://sn.linkedin.com/in/seydou-nourou-aw-342168185?trk=people-guest_people_search-card"
+       class="float-btn float-linkedin" target="_blank" title="LinkedIn">
+        <i class="bi bi-linkedin"></i>
+    </a>
+</div>
+
 <!-- FOOTER -->
 <footer class="py-4 bg-dark text-center text-light">
-    <p>&copy; 2026 CV de Seydou Nourou Aw | Tous droits réservés</p>
+    <p>&copy; 2026 Seydou Nourou Aw — Développeur Web Freelance | Dakar, Sénégal</p>
+    <p class="mb-0 small text-white-50">
+        <a href="https://cv-dousey.infinityfreeapp.com/" class="text-white-50 me-3" target="_blank"><i class="bi bi-globe2 me-1"></i>cv-dousey.infinityfreeapp.com</a>
+        <a href="mailto:seydaw7@gmail.com" class="text-white-50 me-3"><i class="bi bi-envelope me-1"></i>seydaw7@gmail.com</a>
+        <a href="https://wa.me/221771127610" class="text-white-50" target="_blank"><i class="bi bi-whatsapp me-1"></i>+221 77 112 76 10</a>
+    </p>
 </footer>
 
 <!-- JS -->
