@@ -42,6 +42,15 @@ $(function(){
 	});
 
 
+	// Lightbox portfolio
+	$(document).on("click", ".portfolio-lightbox", function(){
+		var img = $(this).data("img");
+		var caption = $(this).data("caption");
+		$("#portfolioModalImg").attr("src", img).attr("alt", caption);
+		$("#portfolioModalCaption").text(caption);
+		new bootstrap.Modal(document.getElementById("portfolioModal")).show();
+	});
+
 	$('#contact-form').submit(function(e){
 		e.preventDefault();
 		$('.comments').empty();

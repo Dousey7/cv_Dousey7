@@ -16,13 +16,13 @@
     <meta property="og:description" content="Je crée des sites vitrines, boutiques e-commerce et applications web sur mesure à Dakar. Devis gratuit sous 24h.">
     <meta property="og:url" content="https://cv-dousey.infinityfreeapp.com/">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://cv-dousey.infinityfreeapp.com/images/me.jpg">
+    <meta property="og:image" content="https://cv-dousey.infinityfreeapp.com/images/dousey.jpeg">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Seydou Nourou Aw — Développeur Web Freelance">
     <meta name="twitter:description" content="Sites vitrines, e-commerce et applications web sur mesure à Dakar.">
-    <meta name="twitter:image" content="https://cv-dousey.infinityfreeapp.com/images/me.jpg">
+    <meta name="twitter:image" content="https://cv-dousey.infinityfreeapp.com/images/dousey.jpeg">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
@@ -70,7 +70,7 @@
 <!-- ABOUT -->
 <section id="about" class="section-about d-flex align-items-center">
     <div class="container text-center position-relative" style="z-index:1;" data-aos="fade-up">
-        <img src="images/dousey.jpeg" alt="Seydou" class=" floating-img rounded-circle profile-img mb-3">
+        <img src="images/dousey.jpeg" alt="Seydou Nourou Aw" class="floating-img rounded-circle profile-img mb-3">
 		<header class="header text-center text-white py-5">
 			<div class="container">
 				<span class="badge bg-success px-3 py-2 mb-3 fs-6"><i class="bi bi-circle-fill me-2" style="font-size:0.6rem;"></i>Disponible pour de nouveaux projets</span>
@@ -557,61 +557,63 @@
 
         <div class="row">
             <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="200">
-                <div class="portfolio-item">
-                    <a href="https://cv-dousey.infinityfreeapp.com/#portfolio" target="_blank">
-                        <img src="images/plateforme.png" alt="Plateforme Location Véhicules" height="230px">
-                        <div class="overlay"><span class="text-center">Plateforme Location / Vente Véhicules<br>(Symfony - 1ère Version)</span></div>
-                    </a>
+                <div class="portfolio-item portfolio-lightbox" data-img="images/plateforme.png" data-caption="Plateforme Location / Vente Véhicules (Symfony - 1ère Version)">
+                    <img src="images/plateforme.png" alt="Plateforme Location Véhicules" height="230px">
+                    <div class="overlay"><span class="text-center">Plateforme Location / Vente Véhicules<br>(Symfony - 1ère Version)</span></div>
                 </div>
             </div>
             <div class="col-md-4 mb-4" data-aos="zoom-in">
-                <div class="portfolio-item">
-                    <a href="https://cv-dousey.infinityfreeapp.com/#portfolio" target="_blank">
-                        <img src="images/developpeur.jpg" alt="Application RH" height="230px">
-                        <div class="overlay"><span class="text-center">App RH – Bulletins de salaire</span></div>
-                    </a>
+                <div class="portfolio-item portfolio-lightbox" data-img="images/developpeur.jpg" data-caption="App RH – Bulletins de salaire">
+                    <img src="images/developpeur.jpg" alt="Application RH" height="230px">
+                    <div class="overlay"><span class="text-center">App RH – Bulletins de salaire</span></div>
                 </div>
             </div>
             <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="100">
-                <div class="portfolio-item">
-                    <a href="https://cv-dousey.infinityfreeapp.com/#portfolio" target="_blank">
-                        <img src="images/jeuduserpent.png" alt="Jeu du serpent" height="230px">
-                        <div class="overlay"><span class="text-center">Jeu du Serpent<br>(JavaScript)</span></div>
-                    </a>
+                <div class="portfolio-item portfolio-lightbox" data-img="images/jeuduserpent.png" data-caption="Jeu du Serpent (JavaScript)">
+                    <img src="images/jeuduserpent.png" alt="Jeu du serpent" height="230px">
+                    <div class="overlay"><span class="text-center">Jeu du Serpent<br>(JavaScript)</span></div>
                 </div>
             </div>
         </div>
 
-
         <div class="row">
             <div class="col-md-4 mb-4" data-aos="zoom-in">
-                <div class="portfolio-item">
-                    <a href="https://cv-dousey.infinityfreeapp.com/#portfolio" target="_blank">
-                        <img src="images/joyly.png" alt="JOYLY" height="230px">
-                        <div class="overlay"><span class="text-center">JOYLY (App E-Commerce)</span></div>
-                    </a>
+                <div class="portfolio-item portfolio-lightbox" data-img="images/joyly.png" data-caption="JOYLY (App E-Commerce)">
+                    <img src="images/joyly.png" alt="JOYLY" height="230px">
+                    <div class="overlay"><span class="text-center">JOYLY (App E-Commerce)</span></div>
                 </div>
             </div>
             <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="100">
-                <div class="portfolio-item">
-                    <a href="https://cv-dousey.infinityfreeapp.com/#portfolio" target="_blank">
-                        <img src="images/pharmacie.png" alt="Gestion de Pharmacie" height="230px">
-                        <div class="overlay"><span>Application de Gestion de Stock Pharmacie</span></div>
-                    </a>
+                <div class="portfolio-item portfolio-lightbox" data-img="images/pharmacie.png" data-caption="Application de Gestion de Stock Pharmacie">
+                    <img src="images/pharmacie.png" alt="Gestion de Pharmacie" height="230px">
+                    <div class="overlay"><span>Application de Gestion de Stock Pharmacie</span></div>
                 </div>
             </div>
             <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="200">
-                <div class="portfolio-item">
-                    <a href="https://cv-dousey.infinityfreeapp.com/#portfolio" target="_blank">
-                        <img src="images/galsen.png" alt="Plateforme Location Véhicules" height="230px">
-                        <div class="overlay"><span class="text-center">Plateforme Location / Vente Véhicules<br>(Next-JS 2nde Version)</span></div>
-                    </a>
+                <div class="portfolio-item portfolio-lightbox" data-img="images/galsen.png" data-caption="Plateforme Location / Vente Véhicules (Next-JS 2nde Version)">
+                    <img src="images/galsen.png" alt="Plateforme Location Véhicules" height="230px">
+                    <div class="overlay"><span class="text-center">Plateforme Location / Vente Véhicules<br>(Next-JS 2nde Version)</span></div>
                 </div>
             </div>
         </div>
 
     </div>
 </section>
+
+<!-- LIGHTBOX MODAL -->
+<div class="modal fade" id="portfolioModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content bg-dark border-0">
+            <div class="modal-header border-0 pb-0">
+                <h6 class="modal-title text-white" id="portfolioModalCaption"></h6>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center p-2">
+                <img id="portfolioModalImg" src="" alt="" class="img-fluid rounded" style="max-height:80vh;">
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <section class="tech-stack py-5 text-center">
@@ -716,7 +718,7 @@
                 <div class="rec-author">
                     <div class="rec-avatar">AS</div>
                     <div>
-                        <div class="rec-author-name">Aminata Sow</div>
+                        <div class="rec-author-name">Sarah Claudia</div>
                         <div class="rec-author-role">Responsable Support, Foundever Sénégal</div>
                     </div>
                 </div>
@@ -727,7 +729,7 @@
                 <div class="rec-author">
                     <div class="rec-avatar">IN</div>
                     <div>
-                        <div class="rec-author-name">Ibrahima Ndiaye</div>
+                        <div class="rec-author-name">Chérif DIA</div>
                         <div class="rec-author-role">Chef de Service Informatique, Université AMM</div>
                     </div>
                 </div>
